@@ -125,8 +125,9 @@ Implemented using **Streamlit**, enabling users to explore and filter the datase
 git clone https://github.com/<your-org>/fact-checking-rag.git
 cd fact-checking-rag
 pip install -r requirements.txt
+```
 
-
+### 🛠️ Project Structure
 📁 fact-checking-rag/
 ├── app.py                     # Main Streamlit application
 ├── rag_pipeline.py           # RAG logic: retrieval and generation
@@ -136,3 +137,13 @@ pip install -r requirements.txt
 ├── config.py                 # API keys and constants
 ├── requirements.txt
 └── README.md
+
+### 🔭 Future Developments
+- Multi-user support with USER collection in MongoDB
+- NER + Graph RAG: Integrate entity recognition with knowledge graph-based retrieval
+- Dynamic Author Biographies: Real author profiles and social links
+
+### Authors
+- Francesco Pio Manna
+- Matteo Rossi
+- Davide Landolfi
